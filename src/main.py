@@ -1,4 +1,3 @@
-import clipboard
 import random
 
 
@@ -50,7 +49,6 @@ def generate(init,main,delete):
 			y+=1
 			x=min(max(x,0),sz-1)
 		return [x,xa,y,z,za,d]
-	ol=init
 	x=0
 	xa=1
 	y=0
